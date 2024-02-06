@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+.header__container{
+    position: relative;
+}
+.fondo{
+    position: absolute;
+}
+.inicio__container{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.main__logo{
+    margin: 150px 0 60px 0;
+}
+.titulo{
+    font-size: 2em;
+    color: var(--Dark-Grayish-Blue);
+}
+.parrafo{
+    margin: 20px 0;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    color: var(--Grayish-Blue);
+}
+.cta1{
+    background: var(--Strong-Cyan);
+    padding: 10px 30px;
+    margin: 50px 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    border-bottom: 2px solid hsla(171, 69%, 34%, 0.61);
+    border-left:  1px solid hsla(171, 69%, 34%, 0.61);
+    border-right:  1px solid hsla(171, 69%, 34%, 0.61);
+}
+.cta2{  
+    background: var(--Light-Blue);
+    padding: 10px 30px;
+    margin: 50px 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    border-bottom: 2px solid hsla(233, 56%, 55%, 0.61);
+    border-left:  1px solid hsla(233, 56%, 55%, 0.61);
+    border-right:  1px solid hsla(233, 56%, 55%, 0.61);
+}
+.section2{
+    margin-top: 200px;
+}
+.img__compu{
+    margin-left: -30px;
+    width: 80%;
+}
+.textos{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.contenidos__container{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.subtitulo{
+    font-size: 1.8em;
+    color: var(--Dark-Grayish-Blue);
+}
+.contenidos{
+    width: 70%;
+}
+.section3{
+    width: 50%;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.section4{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.hacer{
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+.planes{
+    width: 33%;
+}
+.planes__text{
+    color: var(--Dark-Grayish-Blue);
+}
+.logo__img{
+    width: 100%;
+}
+.icon{
+    margin: 30px;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+footer{
+    background-color: var(--Grayish-Blue);
+    margin-top: 200px;
+}
+.footer__container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.footer__logo{
+    width: 5%;
+}
+.footer__text{
+    line-height: 2;
+}
+.footer__parrafo:hover{
+    cursor: pointer;
+    color: var(--Strong-Cyan);
+}
+.footer__social{
+    margin: 20px 150px 20px 180px;
+}
+.footer__social1{
+    padding: 0 8px;
+}
+.footer__social1:hover{
+    cursor: pointer;
+}
+@media (max-width:400px){
+   .inicio__container{
+    width: 90%;
+    margin: 0 auto;
+   }
+   .botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .cta1{
+    width: 60%;
+    margin: 10px 0;
+   }
+   .cta2{
+    width: 60%;
+    margin: 10px 0;
+   }
+   .section2{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 200px;
+   }
+   .textos{
+    width: 100%;
+   }
+   .contenidos__container{
+    width: 100%;
+    flex-direction: column;
+    
+   }
+   .img__compu{
+    width: 100%;
+    margin: 0 auto;
+   }
+
+   .contenidos{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+   }
+   .section3{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 150px;
+   }
+   .section4{
+    width: 90%;
+    margin: 0 auto;
+   }
+   .hacer{
+    flex-direction: column;
+    margin: 0 auto;
+   }
+   .planes{
+    width: 100%;
+   }
+   .logos{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin: 250px 0;
+   }
+   .footer__container{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   }
+   .footer__text{
+    width: 30%;
+    
+   }
+   .footer__logo{
+    width: 15%;
+    padding-bottom: 20px;
+   }
+   .footer__social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   }
+   .footer__social1{
+    margin: 0 10px;
+   }
+}
